@@ -25,9 +25,12 @@
         <article style="height: 150px;">
           <h3 v-text="item.title"></h3>
           <main v-text="item.summary"></main>
-          
+          <section>
+            <a href="https://mi-ki-ri.github.io/official-2021//tag" v-for="tag of item.tags" v-text="tag">
+              
+            </a>
+          </section>
         </article>
-        
       </a>
 
     </main>

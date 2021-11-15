@@ -2,7 +2,7 @@
 
 {{$pages := .Pages}}
 
-{{ $paginator := .Paginate $pages 5 }}
+{{ $paginator := .Paginate $pages 10 }}
 {{ with $paginator }}
 
 {{ range $paginator.Pages }}
