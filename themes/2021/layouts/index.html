@@ -24,8 +24,8 @@
         <article style="height: 150px;">
           <h3 v-text="item.title"></h3>
           <main v-text="item.summary"></main>
-          <section v-if="item.tags !== null">
-            <a href=`{{.Site.BaseURL}}/tags/${tag}` v-for="tag of item.tags" v-text="tag">
+          <section v-if="articles.items[index].tags !== null">
+            <a :href="(return `{{.Site.BaseURL}}/tags/${tag}`)" v-for="tag of item.tags" v-text="tag">
               
             </a>
           </section>
