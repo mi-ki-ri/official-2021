@@ -1,0 +1,12 @@
+{{ $.Scratch.Add "items" slice }}
+
+{{$pages := .Pages}}
+
+{{ $paginator := .Paginate $pages 5 }}
+{{ with $paginator }}
+
+{{ range $paginator.Pages }}
+    {{- $.Scratch.Add "items" (dict "title" .Title "published" .PublishDate "url" .Permalink "summary" .Summary "content" .Content "tags" .Params.tags "category" .Params.categories ) -}}
+{{- end -}}
+{{end}}
+{ "items": {{ $.Scratch.Get "items" | jsonify }} }

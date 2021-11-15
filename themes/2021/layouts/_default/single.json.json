@@ -1,0 +1,5 @@
+{{ $.Scratch.Add "items" slice }}
+
+{{- $.Scratch.Add "items" (dict "title" .Title "published" .PublishDate "url" .Permalink "summary" .Summary "content" .Content ) -}}
+
+{ "items": {{ $.Scratch.Get "items" | jsonify }} }

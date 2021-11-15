@@ -1,0 +1,13 @@
+baseURL = 'localhost:1313/'
+languageCode = 'en-us'
+title = 'Mikirihassha P Official 2021~'
+theme = "2021"
+
+[outputs]
+home = ["HTML", "JSON", "RSS"]
+section = ["JSON"]
+page = [  "HTML", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
