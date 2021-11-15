@@ -43,7 +43,7 @@
         articles: { items: [] }
       },
       async mounted() {
-        await fetch("page/2/index.json", {
+        await fetch("index.json", {
           method: "GET"
         }).then(result => {
           result.json().then(json => {
