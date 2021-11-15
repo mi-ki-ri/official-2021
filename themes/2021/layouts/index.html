@@ -25,7 +25,7 @@
           <h3 v-text="item.title"></h3>
           <main v-text="item.summary"></main>
           <section>
-            <a href="{{.Site.BaseURL}}/tag" v-for="tag of item.tags" v-text="tag">
+            <a href=`{{.Site.BaseURL}}/tags/${tag}` v-for="tag of item.tags" v-text="tag">
               
             </a>
           </section>
