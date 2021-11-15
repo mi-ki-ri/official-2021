@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>test on Mikirihassha P Official 2021~</title>
-    <link>localhost:1313/tags/test/</link>
+    <link>https://mi-ki-ri.github.io/official-2021/tags/test/</link>
     <description>Recent content in test on Mikirihassha P Official 2021~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Nov 2021 19:22:31 +0900</lastBuildDate><atom:link href="localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Nov 2021 19:22:31 +0900</lastBuildDate><atom:link href="https://mi-ki-ri.github.io/official-2021/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello</title>
-      <link>localhost:1313/posts/hello/</link>
+      <link>https://mi-ki-ri.github.io/official-2021/posts/hello/</link>
       <pubDate>Mon, 15 Nov 2021 19:22:31 +0900</pubDate>
       
-      <guid>localhost:1313/posts/hello/</guid>
+      <guid>https://mi-ki-ri.github.io/official-2021/posts/hello/</guid>
       <description>hello this is test</description>
     </item>
     
