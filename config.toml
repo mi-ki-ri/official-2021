@@ -2,6 +2,7 @@ baseURL = 'localhost:1313/'
 languageCode = 'en-us'
 title = 'Mikirihassha P Official 2021~'
 theme = "2021"
+publishDir = "doc"
 
 [outputs]
 home = ["HTML", "JSON", "RSS"]
